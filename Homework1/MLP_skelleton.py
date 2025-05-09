@@ -106,7 +106,7 @@ def plot_noisy_clean_predicted(noisy_sample, prediction_sample, clean_sample, no
     plt.savefig("Homework1/Images/profiles.png")
     plt.close()
 
-    ratio = (prediction_sample - noisy_sample)/3
+    ratio = (prediction_sample - noisy_sample)/6
     prediction_picture = np.zeros(noisy_picture.shape)
     print(ratio.max(), ratio.min(), ratio)
 
